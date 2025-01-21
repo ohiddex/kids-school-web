@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: quicksand;
+  background-color: rgb(245, 245, 245);
+}
+
+/* color section */
+.nav-cl1 {
+  color: rgb(254, 163, 1);
+}
+.nav-cl2 {
+  color: rgb(1, 172, 253);
+}
+.nav-cl3 {
+  color: rgb(5, 212, 223);
+}
+.nav-cl4 {
+  color: rgb(5, 212, 223);
+}
+/* 
+header section start */
+.nav-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 0 200px;
+}
+
+.nav-parent .logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-parent .logo img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.nav-parent ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-parent ul li {
+  margin: 0 16px;
+}
+
+.nav-parent ul li a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.nav-parent button {
+  padding: 10px 55px;
+  background-color: rgb(254, 163, 1);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 49px;
+}
+.nav-parent button:hover{
+  background-color: rgb(1, 172, 253);
+  color: white;
+  cursor: pointer;
+}
+/* hero section start */
+.hero {
+  margin: 0 200px;
+}
+.left-right-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 350px;
+}
+.hero-left {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+}
+.hero-left h3 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+}
+.hero-left p {
+  color: rgb(17, 17, 17);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  margin-top: 25px;
+}
+.hero-left button{
+color: rgb(255, 255, 255);
+background-color: black;
+border-radius: 12px;
+border: none;
+font-size: 16px;
+font-weight: 600;
+line-height: 30px;
+text-align: left;
+padding: 8px 50px;
+margin-top: 25px;
+}
+.hero-left button:hover{
+  background-color: rgb(254, 163, 1);
+  color: white;
+  cursor: pointer;
+}
+.hero-right {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 16px;
+}
+.curriculum{
+  margin-top: 80px;
+}
+.curriculum h3 {
+  color: rgb(0, 0, 0);
+font-size: 46px;
+font-weight: 700;
+line-height: 57.5px;
+text-align: center;
+}
