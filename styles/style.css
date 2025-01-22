@@ -6,7 +6,10 @@ body {
   font-family: quicksand;
   background-color: rgb(245, 245, 245);
 }
-
+.img {
+  width: 60px;
+  height: 60px;
+}
 /* color section */
 .nav-cl1 {
   color: rgb(254, 163, 1);
@@ -22,6 +25,9 @@ body {
 }
 /* 
 header section start */
+.responsive-nav {
+  display: none;
+}
 .nav-parent {
   display: flex;
   justify-content: space-between;
@@ -364,7 +370,7 @@ header section start */
   color: rgb(0, 0, 0);
   font-size: 46px;
   font-weight: 700;
-  margin-top:5px;
+  margin-top: 5px;
   text-align: left;
 }
 .story-card-container {
@@ -430,15 +436,14 @@ header section start */
   margin-left: 38px;
   width: 135px;
   text-align: left;
-
 }
 
 .dates-three {
   top: -140px;
-
 }
 
-.main-card:hover, .cards:hover {
+.main-card:hover,
+.cards:hover {
   transform: scale(1.05);
 }
 
@@ -544,7 +549,4 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 50px;
-}
-.marquee {
-  margin-top: 20px;
 }
